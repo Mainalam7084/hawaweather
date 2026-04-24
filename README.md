@@ -1,53 +1,62 @@
-# Hawa Weather 🌦️
+# Hawa Weather
 
-A modern, immersive weather application building with React 19, Vite, and Three.js, designed to provide a rich visual experience for checking weather forecasts.
+Hawa Weather es una aplicación meteorológica moderna creada con React y Vite. Ofrece una experiencia visual atractiva con animaciones, datos de pronóstico y opciones de personalización.
 
-## 🌟 Features
+## Descripción
 
-- **3D Weather Visualizations:** Immersive 3D scenes powered by **Three.js** and **React Three Fiber**.
-- **Real-time Weather Data:** Accurate and up-to-date weather forecasts.
-- **Internationalization (i18n):** Multi-language support for a global audience.
-- **Responsive Design:** Fully responsive interface built with **Tailwind CSS**.
-- **Smooth Animations:** Dynamic interactions using **Tailwind Animate** and custom motion components.
-- **User Preferences:** Customizable settings including motion preferences and themes.
+Esta aplicación permite buscar y ver el clima actual, el pronóstico por horas y el pronóstico diario de una ubicación seleccionada. Incluye:
 
-## 🛠️ Tech Stack
+- Búsqueda de ubicaciones con autocompletado.
+- Datos meteorológicos precisos y actualizados.
+- Interfaz adaptativa para dispositivos móviles y escritorio.
+- Preferencias de usuario para cambiar el modo de animación y visualización.
 
-- **Core:** [React 19](https://react.dev/), [Vite](https://vitejs.dev/)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/), [PostCSS](https://postcss.org/)
-- **3D & Graphics:** [Three.js](https://threejs.org/), [React Three Fiber](https://docs.pmnd.rs/react-three-fiber), [Drei](https://github.com/pmndrs/drei)
-- **Icons:** [Lucide React](https://lucide.dev/)
-- **Routing:** [React Router DOM](https://reactrouter.com/)
-- **Quality Control:** [ESLint](https://eslint.org/), [Stylelint](https://stylelint.io/)
+## Características principales
 
-## 🚀 Getting Started
+- Visualización de la información meteorológica actual.
+- Pronóstico diario y por horas.
+- Manejo de ubicaciones guardadas como favoritos.
+- Soporte para diferentes preferencias de usuario.
+- Interfaz responsiva con diseño limpio.
 
-### Prerequisites
+## Tecnologías usadas
 
-Ensure you have the latest version of **Node.js** installed.
+- React 19
+- Vite
+- Tailwind CSS
+- Three.js y React Three Fiber
+- ESLint
+- Stylelint
 
-### Installation
+## Cómo ejecutar el proyecto
 
-1. Clone the repository:
+### Requisitos
+
+- Node.js instalado.
+
+### Pasos
+
+1. Clona el repositorio:
    ```bash
    git clone <repository-url>
-   cd hawa-weather
+   cd hawaweather
    ```
 
-2. Install dependencies:
+2. Instala las dependencias:
    ```bash
    npm install
    ```
 
-3. Start the development server:
+3. Inicia el servidor de desarrollo:
    ```bash
    npm run dev
    ```
-   The application will be available at `http://localhost:5173`.
 
-## 📜 Available Scripts
+4. Abre `http://localhost:5173` en tu navegador.
 
-- **`npm run dev`**: Starts the development server with HMR.
-- **`npm run build`**: Builds the application for production.
-- **`npm run preview`**: Previews the production build locally.
-- **`npm run lint`**: Runs ESLint to check for code quality issues.
+## Comandos disponibles
+
+- `npm run dev`: inicia el servidor de desarrollo.
+- `npm run build`: genera el proyecto listo para producción.
+- `npm run preview`: muestra una vista previa de la versión de producción.
+- `npm run lint`: ejecuta ESLint para revisar la calidad del código.
