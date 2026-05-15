@@ -32,7 +32,7 @@
     "globals": "^17.6.0",
     "post": "^0.0.1",
     "postcss": "^8.5.14",
-    "stylelint": "^17.9.0",
+    "stylelint": "^17.11.1",
     "stylelint-config-standard": "^40.0.0",
     "stylelint-config-tailwindcss": "^1.0.1",
     "tailwindcss": "^3.4.19",
